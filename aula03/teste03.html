@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function changeClass(){
+      document.getElementById('myButton').className = 'formatForButton';
+    }
+  </script>
+  
+  <style>
+    .formatForButton {
+      background-color:pink;
+     }
+  </style>
+  
+  <body>
+    <input id='myButton' type=button class=none value='Change Color to pink' onclick='changeClass()'>
+  </body>
+</html>

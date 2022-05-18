@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
