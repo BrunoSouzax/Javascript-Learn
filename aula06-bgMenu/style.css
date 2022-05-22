@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: bisque;
+    align-items: center;
+    text-align: center;
+}
+
+header li {
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+
+header a {
+   text-decoration: none;
+   color: white;
+   font-weight: bolder;
+}
+
+header a:hover {
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 30%;
+}
+
+button {
+    box-shadow: 2px 2px black;
+    margin: 2px 5px;
+    text-align: right;
+}
