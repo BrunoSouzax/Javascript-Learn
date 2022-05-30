@@ -8,13 +8,17 @@ var todo = window.prompt (`Oque gostaria de fazer hoje ${nome}?`)
 document.write(`Seu nome tem ${nome.length} letras. `)
 */
 
-var corpo = window.document.body
-var p1 = window.document.getElementsByTagName('p')[0]
+const dark = window.document.getElementById("dark");
+dark.addEventListener('click', function onclick(event){
+    document.body.style.backgroundColor = 'black';
+})
 
-var d = window.document.querySelector('div#msg')
-d.style.color = 'blue'
+const white = window.document.getElementById('white');
+white.addEventListener('click', function onclick(event){
+    document.body.style.backgroundColor = 'white'
+})
 
-var d = window.document.getElementById("msg")
-d.style.background = "green"
-
-corpo.style.background = "gray"
+const green = window.document.getElementById('green');
+green.addEventListener('click', function onclick(event){
+    document.body.style.backgroundColor = 'green'
+})
